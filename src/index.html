@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      user-scalable="no"
+    />
+    <title>My Site</title>
+    <script>
+      class App {
+        constructor() {}
+        static doSomething() {
+          alert('do Something');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <h1>My fancy App</h1>
+      <button onclick="App.doSomething()">Hi there!</button>
+    </div>
+  </body>
+</html>
